@@ -2,14 +2,14 @@
   "name": "workflow",
   "version": "1.0.0",
   "description": "A project to showcase workflows",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "?.git"
   },
   "author": "Lee Redmond",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  }
 }
